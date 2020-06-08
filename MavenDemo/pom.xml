@@ -3,13 +3,28 @@
   <groupId>mavendemo</groupId>
   <artifactId>mavendemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M4</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  
   <dependencies>
   
-  <dependency>
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version> 
-  </dependency>
+    <version>3.141.0</version>
+</dependency>
+
 
   <dependency>
     <groupId>io.github.bonigarcia</groupId>
@@ -30,7 +45,12 @@
     	<version>2.52.0</version>
 	</dependency>
 
-	
-	
-    </dependencies>
+
+
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>7.1.0</version>
+	</dependency>
+  </dependencies>
 </project>

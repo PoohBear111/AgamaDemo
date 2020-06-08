@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6342" started-at="2020-06-04T15:24:21 PDT" finished-at="2020-06-04T15:24:27 PDT">
+  <suite name="Default suite" duration-ms="5932" started-at="2020-06-07T22:08:52 PDT" finished-at="2020-06-07T22:08:58 PDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6342" started-at="2020-06-04T15:24:21 PDT" finished-at="2020-06-04T15:24:27 PDT">
+    <test name="Default test" duration-ms="5932" started-at="2020-06-07T22:08:52 PDT" finished-at="2020-06-07T22:08:58 PDT">
       <class name="TestNG.HRMcallWrapperTNG">
-        <test-method status="PASS" signature="insertapp()[pri:0, instance:TestNG.HRMcallWrapperTNG@1188e820]" name="insertapp" is-config="true" duration-ms="2899" started-at="2020-06-04T15:24:21 PDT" finished-at="2020-06-04T15:24:24 PDT">
+        <test-method status="PASS" signature="insertapp()[pri:0, instance:TestNG.HRMcallWrapperTNG@4e4aea35]" name="insertapp" is-config="true" duration-ms="2903" started-at="2020-06-07T22:08:52 PDT" finished-at="2020-06-07T22:08:55 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertapp -->
-        <test-method status="PASS" signature="login()[pri:1, instance:TestNG.HRMcallWrapperTNG@1188e820]" name="login" duration-ms="1654" started-at="2020-06-04T15:24:24 PDT" finished-at="2020-06-04T15:24:25 PDT">
+        <test-method status="PASS" signature="login()[pri:1, instance:TestNG.HRMcallWrapperTNG@4e4aea35]" name="login" duration-ms="1523" started-at="2020-06-07T22:08:55 PDT" finished-at="2020-06-07T22:08:57 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="admin()[pri:2, instance:TestNG.HRMcallWrapperTNG@1188e820]" name="admin" duration-ms="1666" started-at="2020-06-04T15:24:25 PDT" finished-at="2020-06-04T15:24:27 PDT">
+        <test-method status="PASS" signature="admin()[pri:2, instance:TestNG.HRMcallWrapperTNG@4e4aea35]" name="admin" duration-ms="1377" started-at="2020-06-07T22:08:57 PDT" finished-at="2020-06-07T22:08:58 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- admin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:TestNG.HRMcallWrapperTNG@1188e820]" name="quit" is-config="true" duration-ms="87" started-at="2020-06-04T15:24:27 PDT" finished-at="2020-06-04T15:24:27 PDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestNG.HRMcallWrapperTNG@4e4aea35]" name="quit" is-config="true" duration-ms="84" started-at="2020-06-07T22:08:58 PDT" finished-at="2020-06-07T22:08:58 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
